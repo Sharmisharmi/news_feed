@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="25dp">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start earning right after the joing"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/gradient_theme_bg"
+            android:paddingHorizontal="15dp"
+            android:layout_marginHorizontal="15dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You earn for every order you adeliver and get paid at the end of month."
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
